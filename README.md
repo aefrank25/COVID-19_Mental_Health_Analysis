@@ -31,13 +31,13 @@ This analysis uses a publicly available dataset on [Kaggle: Indicators of Anxiet
 ### Data Preparation
 Before running our analysis, we performed basic cleanup on the original Excel file to remove errors and inconsistencies. To replicate our analysis:
 1. Download the dataset directly from Kaggle.
-2. Save it in the `/data` directory of this project.
+2. Save it in the main directory of this project.
 3. Run the analysis scripts or Jupyter notebooks, which read and process the cleaned data as part of the analysis workflow.
 
-*Note*: Due to licensing, the data cannot be redistributed here. Please download it directly from Kaggle and place it in the `/data` directory.
+*Note*: Due to licensing, the data cannot be redistributed here. Please download it directly from Kaggle and place it in the main directory.
 
 ### Processed Data
-The specific file used for our analysis, after initial data cleaning, is located in the `/data/CIS 591_Indicators of Anxiety and Depression Data.csv` file. This file includes the dataset in a format ready for analysis.
+The specific file used for our analysis, after initial data cleaning, is located in the `CIS 591_Indicators of Anxiety and Depression Data.csv` file. This file includes the dataset in a format ready for analysis.
 
 ## Technologies Used
 - **Excel**: Used for initial data cleaning, inspection, and preliminary analysis, including handling missing values, removing duplicates, and organizing data for further 
@@ -95,9 +95,9 @@ Some of the **main insights** from the analysis include:
 Each team member participated in data cleaning, analysis, and visualization.*
 
 ## Acknowledgments
-
 We would like to extend our gratitude to **Dr. Lu Xiao** for her guidance and support throughout this project as part of the CIS 591 course at Arizona State University. Her insights and feedback were invaluable in helping us achieve our project goals.
 
 ## License
+This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-This project is licensed under the MIT License. You are free to use, modify, and distribute this code with proper attribution. See the [LICENSE](LICENSE) file for more details.
+**Note**: The dataset used in this project is not owned by me and is publicly available on Kaggle. Please refer to the [original dataset](https://www.kaggle.com/) for licensing terms and conditions.
