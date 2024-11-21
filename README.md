@@ -1,18 +1,29 @@
-# Analyzing Mental Health Trends in the U.S. During COVID
+# COVID and Mental Health Analysis
 
-## Project Overview
-This project examines mental health trends in the United States during the COVID-19 pandemic, specifically focusing on symptoms of anxiety and depression across various demographics. The goal is to identify patterns and factors influencing mental health outcomes during this period. This project was completed as part of a master's-level business analytics course (CIS 591) at Arizona State University, with contributions from a team of classmates.
+## Purpose
+This project analyzes the impact of the COVID-19 pandemic on mental health indicators such as anxiety and depression. Publicly available datasets from Kaggle were used to uncover trends and insights that can guide public health strategies.
 
-## Table of Contents
-- [Project Overview](#project-overview)
-- [Data Source](#data-source)
-- [Objectives](#objectives)
-- [Technologies Used](#technologies-used)
-- [Project Structure](#project-structure)
-- [How to Use](#how-to-use)
-- [Key Findings](#key-findings)
-- [Contributors](#contributors)
-- [License](#license)
+## Implementation
+The project was conducted as part of the CIS 591 course at Arizona State University (ASU) under the supervision of Dr. Lu Xiao. Excel was used for data cleaning. Python was utilized for data processing, statistical analysis, and visualization. We focused on identifying patterns across demographics and geographic regions in the United States to better understand the pandemic's impact on mental health.
+
+## Objectives
+The main goals of this project are:
+- Analyzing trends in anxiety and depression symptoms by demographics (e.g., age, gender).
+- Exploring the impact of external factors (e.g., COVID-19 cases, lockdowns) on mental health trends.
+- Identifying areas for further research and potential mental health support during pandemic scenarios.
+
+## Steps Involved
+1. **Data Collection:** Downloaded public dataset from Kaggle focusing on mental health during COVID-19.
+2. **Data Cleaning:** Processed and cleaned the data to ensure consistency and reliability.
+3. **Exploratory Data Analysis (EDA):** Conducted EDA to identify trends and outliers.
+4. **Visualization:** Created visual representations to illustrate key findings.
+5. **Reporting:** Documented findings in reports and presentations.
+
+## Future Steps
+- Expand analysis to include additional datasets for more comprehensive insights.
+- Implement predictive models to forecast future mental health trends.
+- Develop an interactive dashboard to visualize trends in real-time.
+- Collaborate with public health experts to interpret findings and propose solutions.
 
 ## Data Source
 This analysis uses a publicly available dataset on [Kaggle: Indicators of Anxiety or Depression](https://www.kaggle.com/datasets/melissamonfared/indicators-of-anxiety-or-depression), which includes information on mental health symptoms, demographics, and related factors during the COVID-19 pandemic.
@@ -25,68 +36,55 @@ Before running our analysis, we performed basic cleanup on the original Excel fi
 
 *Note*: Due to licensing, the data cannot be redistributed here. Please download it directly from Kaggle and place it in the `/data` directory.
 
-## Processed Data
-The specific file used for our analysis, after initial data cleaning, is located in the `/data/CIS 591_Indicators of Anxiety and Depression Data.csv` file (or replace with your file’s actual name and path). This file includes the dataset in a format ready for analysis. For detailed cleaning steps, refer to the scripts in the `/scripts` folder or the Jupyter notebooks in the `/notebooks` directory.
-
-
-## Objectives
-The main goals of this project are:
-- Analyzing trends in anxiety and depression symptoms by demographics (e.g., age, gender).
-- Exploring the impact of external factors (e.g., COVID-19 cases, lockdowns) on mental health trends.
-- Identifying areas for further research and potential mental health support during pandemic scenarios.
+### Processed Data
+The specific file used for our analysis, after initial data cleaning, is located in the `/data/CIS 591_Indicators of Anxiety and Depression Data.csv` file. This file includes the dataset in a format ready for analysis.
 
 ## Technologies Used
-- **Python**: Core programming language for data analysis.
+- **Excel**: Used for initial data cleaning, inspection, and preliminary analysis, including handling missing values, removing duplicates, and organizing data for further 
+             processing.
+- **Python**: Core programming language for data analysis, visualization, and statistical modeling.
 - **Libraries**: 
   - `pandas`: Data manipulation
   - `numpy`: Numerical computations
-  - `matplotlib` and `seaborn`: Data visualization
+  - `matplotlib` and `seaborn`: Data visualizations
   - `scikit-learn`: Machine learning and model evaluation
-- **Tools**: Jupyter Notebooks for interactive analysis and visualization.
+- **Tools**: `Jupyter Notebooks` and `Google Colab` for interactive analysis and visualization.
 
-## Project Structure
-```plaintext
-├── data/                   # Folder to link external dataset source
-├── notebooks/              # Jupyter Notebooks for step-by-step analysis
-├── README.md               # Project overview and documentation
-└── requirements.txt        # Required libraries
-```
-# How to Use
+## How to Use
 
 1. **Clone the Repository**
    <!-- Command to clone the repository -->
-   Clone the repository to your local machine:
+  git clone https://github.com/aefrank25/COVID-19_Mental_Health_Analysis.git
 
-   ```bash
-   git clone https://github.com/aefrank25/mental-health-trends-covid.git
-2. **Install Dependencies**
+2. **Navigate to the Project Directory**
+   <!-- Command to navigate to the project directory -->
+  cd COVID-19_Mental_Health_Analysis
 
-<!-- Commands to navigate to the project directory and install dependencies -->
-Navigate to the project directory and install the required Python packages:
-cd mental-health-trends-covid
-pip install -r requirements.txt
-
-3. **Download the Dataset**
-   - Visit the [Kaggle dataset page](https://www.kaggle.com/datasets/melissamonfared/indicators-of-anxiety-or-depression).
-   - Download the dataset and save it to the `/data` directory of this project.
+3. **Refer to requirements.txt for a List of Required Libraries**
+  <!-- Install required Python packages -->
   
-4. **Run the Notebooks**
-    Open the Jupyter notebooks in the /notebooks directory to follow the step-by-step analysis. Each notebook contains code      and comments that guide you through the data cleaning, exploration, and visualization processes.
-   jupyter notebook #run the command
+4. **Run the Jupyter Notebook:**
+   Open the file: CIS 591_ Indicators of Anxiety and Depression Data.ipynb
+   Run the cells sequentially to perform the data analysis and view results.
+   
+5. **Using Google Colab (Optional):**
+   1. Upload the .ipynb notebook file to your Google Colab environment
+   2. Add this cell at the start of the notebook to ensure all necessary libraries are installed:
+      !pip install pandas numpy matplotlib seaborn scikit-learn openpyxl
+   3. Run all cells in the notebook to execute the analysis.
 
 ## Key Findings
 
-Some of the main insights from the analysis include:
+Some of the **main insights** from the analysis include:
 
-- **Increased Anxiety and Depression**: There was a significant rise in reported symptoms of anxiety and depression across all demographics during the early stages of the COVID-19 pandemic.
-- **Younger Adults More Affected**: Individuals aged 18-29 exhibited higher levels of anxiety and depression compared to older age groups.
-- **Impact of Geographic Location**: Certain regions experienced more pronounced mental health challenges, correlating with factors like infection rates and lockdown stringency.
-- **Economic Factors**: Unemployment rates and financial instability showed a strong association with increased mental health issues.
+- **Increased Anxiety and Depression**: There was a *significant rise* in reported symptoms of **anxiety and depression** across *all demographics* during the *early stages* of the COVID-19 pandemic.
+- **Younger Adults More Affected**: Individuals aged 18-29 exhibited **higher levels of anxiety and depression**, *compared to older age groups*.
+- **Impact of Geographic Location**: Certain *regions* experienced **more pronounced mental health challenges**, correlating with factors like infection rates and lockdown stringency.
+- **Economic Factors**: **Unemployment rates** and **financial instability** showed a *strong association* with **increased mental health issues**.
 
 **Limitations**: A key limitation of this project was the timeline; we had less than 7 weeks to complete it. This time constraint limited the depth of data exploration and the complexity of our analysis. Additional insights could be gained with further refinement and extended analysis time.
 
 ## Contributors
-
 - **Amy Frank**
 - **Sreeya Guha**
 - **Avinash Chowdhary Maddineni**
