@@ -36,7 +36,7 @@ This analysis uses a publicly available dataset on [Kaggle: Indicators of Anxiet
 Before running our analysis, we performed basic cleanup on the original Excel file to remove errors and inconsistencies. To replicate our analysis:
 1. Download the dataset directly from Kaggle.
 2. Save it in the main directory of this project.
-3. Run the analysis scripts or Jupyter notebooks, which read and process the cleaned data as part of the analysis workflow.
+3. Run the Jupyter notebook, which reads and processes the cleaned data as part of the analysis.
 
 *Note*: Due to licensing, the data cannot be redistributed here. Please download it directly from Kaggle and place it in the main directory.
 
@@ -64,7 +64,7 @@ The specific file used for our analysis, after initial data cleaning, is located
    <!-- Command to navigate to the project directory -->
   cd COVID-19_Mental_Health_Analysis
 
-3. **Refer to requirements.txt for a List of Required Libraries**
+3. **Refer to [requirements.txt](requirements) for a List of Required Libraries**
   <!-- Install required Python packages -->
   
 4. **Run the Jupyter Notebook:**
