@@ -3,6 +3,10 @@
 ## Purpose
 This project analyzes the impact of the COVID-19 pandemic on mental health indicators such as anxiety and depression. Publicly available datasets from Kaggle were used to uncover trends and insights that can guide public health strategies.
 
+Note: Some of the interactive Plotly visualizations in this project may not render correctly on GitHub. To fully experience the interactive features, open the notebook in Google Colab using the link below:
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1mI4-mgIMi4-F7StVv_sEkX7E6If2R98W/view?usp=sharing)
+
 ## Implementation
 The project was conducted as part of the CIS 591 course at Arizona State University (ASU) under the supervision of Dr. Lu Xiao. Excel was used for data cleaning. Python was utilized for data processing, statistical analysis, and visualization. We focused on identifying patterns across demographics and geographic regions in the United States to better understand the pandemic's impact on mental health.
 
@@ -47,7 +51,7 @@ The specific file used for our analysis, after initial data cleaning, is located
   - `pandas`: Data manipulation
   - `numpy`: Numerical computations
   - `matplotlib` and `seaborn`: Data visualizations
-  - `scikit-learn`: Machine learning and model evaluation
+  - `plotly`: Interactive visualizations
 - **Tools**: `Jupyter Notebooks` and `Google Colab` for interactive analysis and visualization.
 
 ## How to Use
@@ -64,13 +68,13 @@ The specific file used for our analysis, after initial data cleaning, is located
   <!-- Install required Python packages -->
   
 4. **Run the Jupyter Notebook:**
-   Open the file: CIS 591_ Indicators of Anxiety and Depression Data.ipynb
+   Open the file: ASU_MSBA_Team_Project_COVID_and_US_Mental_Health_Trends (3).
    Run the cells sequentially to perform the data analysis and view results.
    
 5. **Using Google Colab (Optional):**
    1. Upload the .ipynb notebook file to your Google Colab environment
    2. Add this cell at the start of the notebook to ensure all necessary libraries are installed:
-      !pip install pandas numpy matplotlib seaborn scikit-learn openpyxl
+      !pip install pandas numpy matplotlib seaborn plotly
    3. Run all cells in the notebook to execute the analysis.
 
 ## Key Findings
