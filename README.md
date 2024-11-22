@@ -37,7 +37,7 @@ Before running our analysis, we performed basic cleanup on the original Excel fi
 *Note*: Due to licensing, the data cannot be redistributed here. Please download it directly from Kaggle and place it in the main directory.
 
 ### Processed Data
-The specific file used for our analysis, after initial data cleaning, is located in the `CIS 591_Indicators of Anxiety and Depression Data.csv` file. This file includes the dataset in a format ready for analysis.
+The specific file used for our analysis, after initial data cleaning, is located in the `CIS 591_Indicators of Anxiety and Depression Data.csv` file. This file includes the dataset in a format ready for analysis. There is also an Excel file included, with the data organized.
 
 ## Technologies Used
 - **Excel**: Used for initial data cleaning, inspection, and preliminary analysis, including handling missing values, removing duplicates, and organizing data for further 
