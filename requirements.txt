@@ -1,0 +1,10 @@
+Install Required Libraries
+# Run this command to ensure all essential libraries are installed in your Python environment:
+pip install
+pandas 
+numpy
+matplotlib
+seaborn
+scikit-learn
+openpyxl
+jupyter
