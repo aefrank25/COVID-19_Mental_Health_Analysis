@@ -5,7 +5,7 @@ This project analyzes the impact of the COVID-19 pandemic on mental health indic
 
 Note: Some of the interactive Plotly visualizations in this project may not render correctly on GitHub. To fully experience the interactive features, open the notebook in Google Colab using the link below:
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1mI4-mgIMi4-F7StVv_sEkX7E6If2R98W/view?usp=sharing)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aefrank25/COVID-19_Mental_Health_Analysis/blob/main/ASU_MSBA_Team_Project_COVID_and_US_Mental_Health_Trends%20(3).ipynb)
 
 ## Implementation
 The project was conducted as part of the CIS 591 course at Arizona State University (ASU) under the supervision of Dr. Lu Xiao. Excel was used for data cleaning. Python was utilized for data processing, statistical analysis, and visualization. We focused on identifying patterns across demographics and geographic regions in the United States to better understand the pandemic's impact on mental health.
